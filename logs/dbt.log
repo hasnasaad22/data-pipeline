@@ -1,0 +1,44 @@
+[0m15:59:30.703579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D9E6DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D9D451D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1DC80C190>]}
+
+
+============================== 15:59:30.710084 | f59c66c4-b9f6-4ea2-a9cf-f4d3a8ca13d9 ==============================
+[0m15:59:30.710084 [info ] [MainThread]: Running with dbt=1.6.0
+[0m15:59:30.711588 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'debug': 'False', 'log_path': 'logs', 'write_json': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt init weather_dbt', 'printer_width': '80', 'version_check': 'True', 'target_path': 'None', 'static_parser': 'True', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'partial_parse': 'True', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\ascom\\Desktop\\weather data project', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'fail_fast': 'False', 'no_print': 'None'}
+[0m15:59:30.714798 [info ] [MainThread]: A project called weather_dbt already exists here.
+[0m15:59:30.715777 [debug] [MainThread]: Command `dbt init` succeeded at 15:59:30.715608 after 0.17 seconds
+[0m15:59:30.716365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1DC8183E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1DC75A450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1DC7B48D0>]}
+[0m15:59:30.716977 [debug] [MainThread]: Flushing usage events
+[0m16:00:59.202743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E147CDE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E146A11D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E17158190>]}
+
+
+============================== 16:00:59.207638 | db9e320f-628d-4002-bf0f-0f451db451dd ==============================
+[0m16:00:59.207638 [info ] [MainThread]: Running with dbt=1.6.0
+[0m16:00:59.208346 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'cache_selected_only': 'False', 'log_path': 'logs', 'write_json': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt init weather_dbt', 'version_check': 'True', 'printer_width': '80', 'target_path': 'None', 'static_parser': 'True', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'quiet': 'False', 'profiles_dir': 'C:\\Users\\ascom\\Desktop\\weather data project', 'partial_parse': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'debug': 'False', 'fail_fast': 'False', 'no_print': 'None'}
+[0m16:00:59.209625 [info ] [MainThread]: A project called weather_dbt already exists here.
+[0m16:00:59.210294 [debug] [MainThread]: Command `dbt init` succeeded at 16:00:59.210146 after 0.14 seconds
+[0m16:00:59.210674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E171683E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E170AA450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020E171048D0>]}
+[0m16:00:59.211079 [debug] [MainThread]: Flushing usage events
+[0m16:02:10.086008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C810DE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C7FE91D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217CAA98190>]}
+
+
+============================== 16:02:10.091238 | 447986f5-7d2a-4496-bcb6-ed15149b8f7b ==============================
+[0m16:02:10.091238 [info ] [MainThread]: Running with dbt=1.6.0
+[0m16:02:10.092079 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'cache_selected_only': 'False', 'log_path': 'logs', 'invocation_command': 'dbt init weather_dbt', 'log_cache_events': 'False', 'write_json': 'True', 'version_check': 'True', 'printer_width': '80', 'static_parser': 'True', 'target_path': 'None', 'warn_error': 'None', 'use_experimental_parser': 'False', 'use_colors': 'True', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\ascom\\Desktop\\weather data project', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'debug': 'False', 'fail_fast': 'False', 'no_print': 'None'}
+[0m16:02:10.093364 [debug] [MainThread]: Starter project path: C:\Users\ascom\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m16:02:10.106375 [info ] [MainThread]: 
+Your new dbt project "weather_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:02:10.107141 [info ] [MainThread]: Setting up your profile.

@@ -1,0 +1,11 @@
+weather_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db
+      user: airflow
+      password: airflow
+      dbname: airflow_db
+      schema: public
+      port: 5432
