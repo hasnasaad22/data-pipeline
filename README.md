@@ -1,0 +1,110 @@
+# 🌤 Weather Data Engineering Pipeline & Dashboard
+
+## 📌 Project Overview
+
+An end-to-end data engineering project that ingests weather data, processes it using modern data engineering tools, and visualizes insights through an interactive dashboard.
+
+The project follows a real-world ELT architecture covering orchestration, data ingestion, transformation, storage, and analytics visualization.
+
+---
+
+## 🧱 Architecture
+
+```text
+Weather API / Dataset
+        ↓
+Apache Airflow (Orchestration & Scheduling)
+        ↓
+PostgreSQL (Raw Data Storage)
+        ↓
+dbt (Data Transformation & Modeling)
+        ↓
+Streamlit (Interactive Dashboard)
+
+```
+
+
+## 📊 Dashboard Preview
+
+### Dashboard Overview
+![Dashboard](assets/dashboard2.png)
+
+### Temperature Chart
+![Chart](assets/chart.png)
+
+
+## 📈 Key Features
+Interactive dashboard built with Streamlit
+Temperature and humidity trend analysis
+KPI metrics (average, min, max values)
+Date-based filtering for dynamic exploration
+Rolling averages for trend smoothing
+Full dataset exploration table
+Correlation analysis between weather metrics
+
+## 🛠 Tech Stack
+Apache Airflow → Workflow orchestration
+PostgreSQL → Data storage layer
+dbt → Data transformation & modeling
+Docker → Containerization
+Streamlit → Dashboard development
+Plotly → Data visualization
+
+## 🚀 How to Run Locally
+1. Start all services
+docker compose up -d --build
+2. Run Streamlit dashboard
+streamlit run streamlit_app.py
+3. Access services
+Airflow UI → http://localhost:8080
+Dashboard → http://localhost:8501
+
+## 📂 Project Structure
+├── dags/                 # Airflow DAGs
+├── weather_dbt/          # dbt models
+├── assets/               # dashboard images
+├── streamlit_app.py      # Streamlit app
+├── docker-compose.yml    # Infrastructure setup
+└── README.md
+
+## 🧪 Data Quality Checks
+
+Implemented using dbt tests to ensure:
+
+No missing critical values
+No duplicate records
+Consistent data types across all models
+ 
+## 🧱 Data Modeling Layers
+1. Raw Layer
+Raw weather data ingested from source
+No transformations applied
+2. Staging Layer
+Data cleaning and standardization
+Handling missing values and duplicates
+3. Analytics Layer
+Final aggregated tables for analytics
+KPI and time-series ready datasets
+
+## 🧠 Insights Generated
+Identification of peak temperatures
+Detection of humidity patterns
+Time-based weather trends
+Relationship between temperature and humidity
+
+## 💡 Key Learnings
+Designing end-to-end data pipelines
+Building workflows using Apache Airflow
+Data transformation using dbt
+Connecting backend pipelines to frontend dashboards
+Creating interactive analytics applications
+
+## 🔮 Future Improvements
+Deploy dashboard on cloud (AWS / Streamlit Cloud)
+Add real-time streaming ingestion
+Implement alerting system for anomalies
+Extend to multi-location weather analysis
+
+
+👩‍💻 Author
+Hasnaa Magdi
