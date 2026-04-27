@@ -25,6 +25,14 @@ Streamlit (Interactive Dashboard)
 
 ## 📊 Dashboard Preview
 
+<p align="center">
+  <img src="assets/dashboard2.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="assets/chart.png" width="700"/>
+</p>
+
 ## 📈 Key Features
 Interactive dashboard built with Streamlit
 Temperature and humidity trend analysis
@@ -42,7 +50,7 @@ Docker → Containerization
 Streamlit → Dashboard development
 Plotly → Data visualization
 
-##🚀 How to Run Locally
+## 🚀 How to Run Locally
 1. Start all services
 docker compose up -d --build
 2. Run Streamlit dashboard
@@ -51,7 +59,7 @@ streamlit run streamlit_app.py
 Airflow UI → http://localhost:8080
 Dashboard → http://localhost:8501
 
-##📂 Project Structure
+## 📂 Project Structure
 ├── dags/                 # Airflow DAGs
 ├── weather_dbt/          # dbt models
 ├── assets/               # dashboard images
@@ -59,7 +67,7 @@ Dashboard → http://localhost:8501
 ├── docker-compose.yml    # Infrastructure setup
 └── README.md
 
-##🧪 Data Quality Checks
+## 🧪 Data Quality Checks
 
 Implemented using dbt tests to ensure:
 
