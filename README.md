@@ -1,4 +1,4 @@
-# 🌤 Weather Data Engineering Pipeline & Dashboard
+# 🌤 Data Engineering Pipeline & Dashboard
 
 ## 📌 Project Overview
 
